@@ -1,0 +1,18 @@
+<section>
+  <div id="title">
+    <h1>
+      Welcome to Concentration!
+    </h1>
+    <button (click)="newGame()">New Game</button>
+  </div>
+
+  <div class="boardContainer"> 
+    <div class="cardContainer">
+      <div class="card-display" *ngFor="let card of (draw$ | async)?.cards" (click)="pickCard(card)" id="{{card.code}}">
+        <img src="{{backOfCard}}" />;
+      </div>
+    </div>
+  </div>
+</section>
+
+
