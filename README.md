@@ -1,5 +1,12 @@
 # Concentration
 
+This is a simple card game. All 52 cards area laid out face down before you. Selecting two at a time, you attempt to match card values. If  you find a match, the cards are removed. If you don't find a match the cards return to their face down position. The goal is to find all 26 matches. 
+
+## Technical notes
+
+API - deckofcardsapi.com
+Fits screens of resolution 1024 or greater.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Development server
